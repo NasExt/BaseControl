@@ -1,0 +1,21 @@
+{
+    "name": "nasext/base-control",
+    "type": "library",
+    "description": "BaseControl for NasExt controls for Nette Framework",
+    "keywords": ["nette", "nasext", "base control"],
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Dusan Hudak"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "nette/nette": "@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "NasExt\\BaseControl\\": "src/"
+        }
+    }
+}
